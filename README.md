@@ -292,10 +292,6 @@ Este proyecto es educativo y forma parte del Master IA de Bigschool.
 
 Desarrollado como proyecto de aprendizaje en el Master IA - Bigschool 2da edición
 
-## 📧 Soporte
-
-Para reportar problemas o sugerencias, por favor contactar al equipo de desarrollo.
-
 ---
 
 **Última actualización**: Abril 2026

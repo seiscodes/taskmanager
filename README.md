@@ -1,21 +1,21 @@
-# 📋 Gestor de Tareas Inteligente
+# Gestor de Tareas Inteligente
 
 Un gestor de tareas moderno y potente que integra inteligencia artificial para desglosar tareas complejas en subtareas simples y manejables.
 
-## 📷 Descripción del Proyecto
+## Descripción del Proyecto
 
 **TaskManager** es una aplicación de línea de comandos desarrollada en Python que permite gestionar tareas de forma eficiente. Su característica principal es la integración con la API de **Google Gemini**, que utiliza inteligencia artificial para analizar tareas complejas y convertirlas automáticamente en subtareas simples y accionables.
 
-### ✨ Características Principales
+### Características Principales
 
-- ✅ **Gestión completa de tareas**: Añadir, listar, completar y eliminar tareas
-- 🤖 **Integración con IA**: Desglose automático de tareas complejas usando Google Gemini
-- 💾 **Persistencia de datos**: Almacenamiento en JSON para mantener las tareas entre sesiones
-- 🎯 **Interfaz intuitiva**: Menú interactivo fácil de usar
-- 🧪 **Suite de pruebas**: Tests unitarios completos con unittest
-- 📊 **Visualización clara**: Representación visual de tareas completadas e incompletas
+- **Gestión completa de tareas**: Añadir, listar, completar y eliminar tareas
+- **Integración con IA**: Desglose automático de tareas complejas usando Google Gemini
+- **Persistencia de datos**: Almacenamiento en JSON para mantener las tareas entre sesiones
+- **Interfaz intuitiva**: Menú interactivo fácil de usar
+- **Suite de pruebas**: Tests unitarios completos con unittest
+- **Visualización clara**: Representación visual de tareas completadas e incompletas
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 TaskManager/
@@ -28,7 +28,7 @@ TaskManager/
 └── README.md              # Este archivo
 ```
 
-## 🔧 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Python 3.x**: Lenguaje de programación principal
 - **JSON**: Formato de almacenamiento de datos
@@ -36,7 +36,7 @@ TaskManager/
 - **unittest**: Framework para pruebas unitarias
 - **python-dotenv**: Gestión de variables de entorno
 
-## 📦 Instalación
+## Instalación
 
 ### Requisitos Previos
 
@@ -69,7 +69,7 @@ TaskManager/
    GEMINI_API_KEY=tu_clave_api_aqui
    ```
 
-## 🚀 Uso
+## Uso
 
 ### Ejecutar la Aplicación
 
@@ -142,7 +142,7 @@ Tarea #3 eliminada
 #### 6. Salir
 Cierra la aplicación guardando todos los cambios.
 
-## 📁 Descripción de Archivos Clave
+## Descripción de Archivos Clave
 
 ### `main.py`
 Punto de entrada de la aplicación. Implementa:
@@ -206,7 +206,7 @@ Archivo de almacenamiento automático con formato:
 ]
 ```
 
-## 🧪 Ejecución de Pruebas
+## Ejecución de Pruebas
 
 Ejecutar todos los tests:
 ```bash
@@ -223,14 +223,14 @@ Ejecutar un test específico:
 python -m unittest test_task_manager.TestTask.test_task_creation
 ```
 
-## 📋 Dependencias
+## Dependencias
 
 Ver [`requirements.txt`](requirements.txt) para la lista completa. Principales:
 - `google-genai`: Cliente oficial de Google Generative AI
 - `google-api-core`: Utilidades de Google Cloud
 - `python-dotenv`: Gestión de variables de entorno
 
-## ⚙️ Configuración Avanzada
+## Configuración Avanzada
 
 ### Variables de Entorno
 En el archivo `.env`:
@@ -245,9 +245,9 @@ En `ia_service.py`, puedes ajustar:
 - `temperature`: Control de creatividad (0.0-1.0)
 - `system_instruction`: Prompt del sistema para Gemini
 
-## 🔐 Seguridad
+## Seguridad
 
-⚠️ **IMPORTANTE**: 
+**IMPORTANTE**: 
 - Nunca compartir la clave API en repositorios públicos
 - Usar `.env` y añadir a `.gitignore`:
   ```
@@ -258,7 +258,7 @@ En `ia_service.py`, puedes ajustar:
   task.json
   ```
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 | Problema | Solución |
 |----------|----------|
@@ -267,28 +267,28 @@ En `ia_service.py`, puedes ajustar:
 | No se cargan las tareas | Verificar permisos de lectura/escritura en el directorio |
 | Gemini no genera subtareas | Verificar conexión a internet y límite de API |
 
-## 🚦 Estados de Tareas
+## Estados de Tareas
 
 Las tareas tienen dos estados:
 - **Incompleta** `[ ]`: Tarea pendiente de realizar
 - **Completada** `[✓]`: Tarea finalizada
 
-## 📈 Mejoras Futuras
+## Mejoras Futuras
 
-- 📱 Interfaz gráfica (GUI) con Tkinter o PyQt
-- ☁️ Sincronización en la nube (Firebase, MongoDB)
-- 📧 Notificaciones por correo
-- 🔄 Integración con calendarios
-- 👥 Soporte multi-usuario
-- 🏷️ Sistema de etiquetas y categorías
-- 📊 Estadísticas y reportes
-- 🔔 Recordatorios de tareas vencidas
+- Interfaz gráfica (GUI) con Tkinter o PyQt
+- Sincronización en la nube (Firebase, MongoDB)
+- Notificaciones por correo
+- Integración con calendarios
+- Soporte multi-usuario
+- Sistema de etiquetas y categorías
+- Estadísticas y reportes
+- Recordatorios de tareas vencidas
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto es educativo y forma parte del Master IA de Bigschool.
 
-## 👤 Autor
+## Autor
 
 Desarrollado como proyecto de aprendizaje en el Master IA - Bigschool 2da edición
 
